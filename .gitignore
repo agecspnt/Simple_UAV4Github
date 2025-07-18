@@ -1,0 +1,95 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating systems
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Training generated files and directories
+model/
+datasets/
+log/
+evaluation_results_*/
+comparison_results_*/
+openai_chat.py
+2good.py
+DETAILED_DESIGN.md
+
+
+# Generated images and analysis results
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Analysis result files
+*.json
+uv.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test and debug files
+test_*.py
+debug_*.py
+*_test.py
+*_debug.py
+
+# Data files
+*.csv
+*.xlsx
+*.dat
+*.h5
+*.hdf5
+
+# Keep core files (through negation patterns)
+!pyproject.toml
+!README.md
+!DETAILED_DESIGN.md
